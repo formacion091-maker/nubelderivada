@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Derivación - Cálculo Diferencial</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #00c6ff, #0072ff, #7b2ff7);
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 15px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    section {
+      background: rgba(255,255,255,0.12);
+      margin: 20px auto;
+      width: 85%;
+      padding: 30px;
+      border-radius: 20px;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      color: #ffe600;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    .formula {
+      background: rgba(0,0,0,0.25);
+      padding: 15px;
+      border-radius: 12px;
+      text-align: center;
+      margin: 15px 0;
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #ffe600;
+      color: #222;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: white;
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>La Derivación</h1>
+    <p>
+      Aprende sobre la derivada, una de las herramientas más importantes del cálculo diferencial,
+      utilizada para analizar cambios, pendientes y velocidades.
+    </p>
+  </header>
+
+  <section>
+    <h2>¿Qué es la Derivada?</h2>
+    <p>
+      La derivada representa la razón de cambio instantánea de una función respecto a una variable.
+      También puede interpretarse como la pendiente de la recta tangente en un punto.
+    </p>
+
+    <div class="formula">
+      f'(x) = lim (h→0) [f(x+h) - f(x)] / h
+    </div>
+  </section>
+
+  <section>
+    <h2>Reglas Básicas de Derivación</h2>
+    <ul>
+      <li>Derivada de una constante: 0</li>
+      <li>Derivada de xⁿ: n·xⁿ⁻¹</li>
+      <li>Regla de la suma</li>
+      <li>Regla del producto</li>
+      <li>Regla del cociente</li>
+      <li>Regla de la cadena</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Ejemplo</h2>
+    <p>Si tenemos la función:</p>
+    <div class="formula">f(x) = x² + 3x</div>
+
+    <p>Su derivada será:</p>
+    <div class="formula">f'(x) = 2x + 3</div>
+
+    <a href="#" class="btn">Aprender Más</a>
+  </section>
+
+  <footer>
+    <p>Sitio educativo sobre cálculo diferencial | Desarrollo en la nube</p>
+  </footer>
+
+</body>
+</html>
